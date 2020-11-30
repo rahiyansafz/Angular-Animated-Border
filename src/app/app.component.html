@@ -1,0 +1,12 @@
+<div style="display: flex; justify-content: center; margin: 4rem;">
+	<div ngAnimatedBorderWrapper>
+		<span ngAnimatedBorder class="myCssAnimation"
+      [abBorderWidth]="['4px']"
+      [abBorderRadius]="['10px']"
+      [abBackgroundColor]="'#333'"
+      [abPauseAnimation]="isPaused"
+      (click)="toggleAnimation()">
+      Toggle animation
+	  </span>
+	</div>
+</div>
